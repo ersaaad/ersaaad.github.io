@@ -1,0 +1,312 @@
+.header{  display: block;
+          background-color: #22222a;
+          position: absolute;
+          margin: auto;
+          margin-left: 10%;
+          margin-right: 10%;
+          height: 120px;
+          width: 80%;
+          top: 0;}
+
+.user{
+        margin-right: 15px;
+        margin-top: -100px;
+
+        float: right;}
+
+.member{
+          margin-right: 45px;
+          margin-top: -100px;
+          text-align: right;
+          color: white;
+          font-family: "Trebuchet MS", sans-serif;
+          font-size: 14px;}
+
+.navbar {
+  margin-top: 150px !important;
+  display: block;
+}
+
+.icon-bar {
+    width: 80%;
+    border: 0.1px solid #0099ff;
+    border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+    border-image-slice: 0.75;
+    border-width: 0.80px;
+    background-color: #22222a;
+    overflow: auto;
+    margin: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none !important;
+    font-family: "Trebuchet MS", Courier, monospace;
+}
+
+.icon-bar a:hover {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+.active {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+body{
+      font-family: "Trebuchet MS", sans-serif;
+      text-align: justify;
+      /*background-color: #22222a;*/
+      background: url("https://img.game.co.uk/ml2/7/2/9/3/729388_scr1_a.png") no-repeat fixed;
+      /*-webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+      background-position: center center;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.65);
+      background-attachment: scroll;
+      position: relative;
+      top:0;
+      bottom:0;
+      height: 1300px;
+      z-index: -10;
+      margin: 0 auto;
+}
+
+.rateheader{
+    text-align: center;
+    padding: 3%;
+}
+.heading {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #444455;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 21%; height: 18px; background-color: #003d66;}
+.bar-4 {width: 51%; height: 18px; background-color: #005c99;}
+.bar-3 {width: 28%; height: 18px; background-color:	#009999;}
+.bar-2 {width: 4%; height: 18px; background-color: #3db49b;}
+.bar-1 {width: 15%; height: 18px; background-color: #61c69d;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 80%) {
+    .side, .middle {
+        width: 80%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+        display: none;
+    }
+}
+
+.bf3{
+      margin-top: 3%;
+}
+
+.vid{
+      border: 1px solid #0099ff;
+      border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+      border-image-slice: 1;
+      border-width: 2px;}
+
+.container
+{
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 1000px;
+  padding: 5%; /*distant of donut and rate*/
+}
+.container .box
+{
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.container .box .chart
+{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 19px;
+  line-height: 100px;
+}
+.container .box canvas
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content{
+  font-family: "Trebuchet MS";
+  font-size: 15px;
+  padding: 2%;
+  text-align: justify;
+
+}
+
+.tab {
+        margin-top: 0.01%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: "Trebuchet MS";
+        font-size: 15px;
+        padding: 3%;
+        text-align: center;
+        color: white;
+        overflow: hidden;
+        border: 1px solid #0099ff;
+        /*background-color: #22222a;*/
+        background-color: linear-gradient(#0099ff, #003d66);
+        border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+        border-image-slice: 1;
+        border-width: 2px;
+        background-color: rgba(0, 0, 0, 0.65);
+        height: 1000px;
+}
+
+
+.center{
+          top: 0;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+/*#background{
+              background: url("https://gamezroomx.files.wordpress.com/2011/05/battlefield3-007.jpg") no-repeat center center fixed;*/
+              /*-webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;*/
+              /*background-position: center center;
+              background-attachment: scroll;
+              position: relative;
+              min-height: 100%;
+              top:0;
+              bottom:0;
+              height: 100%;
+              margin-top: 0;
+              z-index: -10;}*/
+
+#overlay{
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.65);
+          background-attachment: scroll;
+          min-height: 100%;
+          top: 0;
+          bottom: 0;
+          height: 115%; /*Can adjust footer*/
+          width: 100%;
+          z-index: -5;}
+
+
+
+@-webkit-keyframes fadeEffect {
+                                from {opacity: 0;}
+                                to {opacity: 1;}}
+
+@keyframes fadeEffect {
+                        from {opacity: 0;}
+                        to {opacity: 1;}}
+
+.topright {
+            float: right;
+            cursor: pointer;
+            font-size: 28px;}
+
+.topright:hover {color: #0099ff;}
+
+footer{
+        display: block;
+        font-size: 11px;
+        /*text-align: center;*/
+        margin: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+        height:10%;
+        width: 80%;
+        color: white;
+        position: absolute;
+        bottom: 0;}
+
+footer img{
+              display: inline-block;
+              padding-left: 10px;
+              padding-right: 10px;}
+
+hr{
+      margin-left: 10%;
+      margin-right: 10%;
+      border: 1px solid #0099ff;
+      background-color: linear-gradient(#0099ff, #003d66);
+      border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+      border-image-slice: 1;
+      border-width: 1px;}
+
+.copyright{
+            text-align: left;
+            float: left;
+            margin-left: 10%;}
+
+.social{
+          text-align: right;
+          float: right;
+          margin-right: 10%;}
+x

@@ -1,0 +1,285 @@
+.header{  display: block;
+          background-color: #22222a;
+          position: absolute;
+          margin: auto;
+          margin-left: 10%;
+          margin-right: 10%;
+          height: 8.5%;
+          width: 80%;
+          top: 0;}
+
+.user{
+        margin-right: 15px;
+        margin-top: -100px;
+
+        float: right;}
+
+.member{
+          margin-right: 45px;
+          margin-top: -100px;
+          text-align: right;
+          color: white;
+          font-family: "Trebuchet MS", sans-serif;
+          font-size: 14px;}
+
+.navbar {
+  margin-top: 200px !important;
+  display: block;
+}
+
+.icon-bar {
+    width: 90%;
+    border: 0.1px solid #0099ff;
+    border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+    border-image-slice: 0.75;
+    border-width: 0.80px;
+    background-color: #22222a;
+    overflow: auto;
+    margin: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none !important;
+    font-family: "Trebuchet MS", Courier, monospace;
+}
+
+.icon-bar a:hover {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+.active {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+body{
+      font-family: "Trebuchet MS", sans-serif;
+      text-align: justify;
+      /*background-color: #22222a;*/
+      background: url("https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2016/05/IEM2016_1.jpg?$native_nt$") no-repeat fixed;
+      /*-webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+      background-position: center center;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.65);
+      background-attachment: scroll;
+      position: relative;
+      top:0;
+      bottom:0;
+      height: 1510px;
+      z-index: -10;
+      margin: 0 auto;
+}
+
+.navbar {
+  margin-top: 0;
+  display: block;
+}
+
+.icon-bar {
+    width: 80%;
+    border: 0.1px solid #0099ff;
+    border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+    border-image-slice: 0.75;
+    border-width: 0.80px;
+    background-color: #22222a;
+    overflow: auto;
+    margin: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+    text-decoration: none !important;
+    font-family: "Trebuchet MS", Courier, monospace;
+}
+
+.icon-bar a:hover {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+.active {
+    background-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+}
+
+
+
+
+
+.bpic{
+  height: 500px;
+  margin: auto;
+  width: 80% !important;
+  display: block;
+  border: 0.1px solid #0099ff;
+  border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+  border-image-slice: 0.75;
+  border-width: 0.80px;
+  border-left: none;
+  border-right: none;
+}
+.rpic {
+  width: 50%;
+  height: 500px;
+  float: left;
+  background-image: url("horizon.jpg");
+  background-size: cover;
+
+}
+.lpic {
+  width: 50%;
+  height: 500px;
+  float: right;
+  background-image: url("https://apptrigger.com/wp-content/blogs.dir/333/files/2018/07/MaddenNFL19_ABCover.jpg");
+  background-size: cover;
+}
+.btxt{
+  width: 100%;
+  height: 200px;
+  background-color: #22222a !important;
+  opacity: 0.8 !important;
+}
+
+.htxt {
+  padding: 15px;
+  color: white ;
+  opacity: 1 ;
+}
+.content{
+  font-family: "Trebuchet MS";
+  font-size: 15px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.snews {
+  background-color: #22222a;
+  width: auto;
+  height: 100px;
+  border: 0.1px solid #0099ff;
+  border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+  border-image-slice: 0.75;
+  border-width: 0.80px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.spic {
+  float:left;
+  width: 20%;
+  height: 100px;
+}
+
+.stxt {
+  margin: 2%;
+  margin-left: 22%;
+
+}
+
+.tab {margin-top: 1px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+        font-family: "Trebuchet MS";
+        font-size: 15px;
+        padding: 3%;
+        text-align: left;
+        color: white;
+        overflow: hidden;
+        border: 1px solid #0099ff;
+        /*background-color: #22222a;*/
+        background-color: linear-gradient(#0099ff, #003d66);
+        border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+        border-image-slice: 1;
+        border-width: 2px;
+        background-color: rgba(0, 0, 0, 0.65);
+        height: 500px;
+}
+hr{
+  width: 100%;
+  border: 1px solid #0099ff;
+  background-color: linear-gradient(#0099ff, #003d66);
+  border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
+  border-image-slice: 1;
+  border-width: 1px;
+}
+
+
+
+.center{
+          top: 0;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+#overlay{
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.65);
+          background-attachment: scroll;
+          min-height: 100%;
+          top: 0;
+          bottom: 0;
+          height: 114%; /*Can adjust footer*/
+          width: 100%;
+          z-index: -5;}
+
+
+
+@-webkit-keyframes fadeEffect {
+                                from {opacity: 0;}
+                                to {opacity: 1;}}
+
+@keyframes fadeEffect {
+                        from {opacity: 0;}
+                        to {opacity: 1;}}
+
+.topright {
+            float: right;
+            cursor: pointer;
+            font-size: 28px;}
+
+.topright:hover {color: #0099ff;}
+
+footer{
+        display: block;
+        font-size: 11px;
+        /*text-align: center;*/
+        margin: auto;
+        margin-bottom: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        height:10%;
+        width: 80%;
+        color: white;
+        position: absolute;
+        bottom: 0;}
+
+footer img{
+              display: inline-block;
+              padding-left: 10px;
+              padding-right: 10px;}
+
+
+.copyright{
+            text-align: left;
+            float: left;
+            margin-left: 10%;}
+
+.social{
+          text-align: right;
+          float: right;
+          margin-right: 10%;}
