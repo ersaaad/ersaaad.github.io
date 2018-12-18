@@ -28,7 +28,7 @@
 }
 
 .icon-bar {
-    width: 90%;
+    width: 80%;
     border: 0.1px solid #0099ff;
     border-image: linear-gradient(to left, #003d66 0%, #61c69d 100%);
     border-image-slice: 0.75;
@@ -203,7 +203,7 @@ body{
 }
 
 .tab {
-        margin-top: 14%;
+        margin-top: 0.01%;
         margin-left: 10%;
         margin-right: 10%;
 
@@ -220,7 +220,7 @@ body{
         border-image-slice: 1;
         border-width: 2px;
         background-color: rgba(0, 0, 0, 0.65);
-        height: 1190px;
+        height: 1085px;
 }
 
 
